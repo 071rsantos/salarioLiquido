@@ -1,13 +1,13 @@
 const body = document.querySelector('body');
 const container = document.querySelector('#container');
 //const btn = document.querySelector('#change');
-function isDarkModeTime() {
+function darkMode() {
     const horaAtual = new Date().getHours();
     return horaAtual < 5  || horaAtual > 18;
 }
 
 function updateModo() {
-    if (isDarkModeTime()) {
+    if (darkMode()) {
         body.classList.add('dark-mode');
         container.classList.add('dark-mode');
     } else {
