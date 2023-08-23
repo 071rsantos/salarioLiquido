@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Descubra seu salário liquido</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>CALCULO DE SALÁRIO LIQUIDO</h1>
+        <div id="form">
+            <div class="nome">
+                <p>Nome:</p>
+                <input id="nome" type="text" placeholder="Digite seu nome aqui">
+            </div>
+            <div class="salario">
+                <p>Bruto:</p>
+                <input id="salario" type="number" placeholder="Digite seu salário bruto aqui">
+            </div>
+            <div id="liquido"><p>Salário liquido:</p><span><p id="resultado">Seu resultado:</p></span></div>
+            <button id="btnCalc" onclick="calcular()">Calcular</button>
+        </div>
+    </div>
+    <!--<button id="change">dark</button>-->
+    <script src="js/const.js"></script>
+</body>
+</html>
